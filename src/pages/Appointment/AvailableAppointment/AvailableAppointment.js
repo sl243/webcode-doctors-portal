@@ -29,12 +29,6 @@ const AvailableAppointment = ({ selectedDate }) => {
     //     .then(res => res.json())
     // })
 
-    // useEffect(() => {
-    //     fetch('https://webcode-doctors-server.vercel.app/appointmentOptions')
-    //         .then(res => res.json())
-    //         .then(data => setAppointmentOptions(data))
-    // }, [])
-
     return (
         <section className='mt-12'>
             <p className='text-center text-secondary font-bold'>Available Appointments on {format(selectedDate, 'PP')}</p>
